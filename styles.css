@@ -67,6 +67,11 @@ header img
     width: 2.5em;
 }
 
+header ul li:hover, nav ul li:focus
+{
+    text-decoration: underline;
+}
+
 
 /*Main*/
 #mainIndex
