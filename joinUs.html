@@ -1,0 +1,79 @@
+<!-------w-----------
+
+    Project 3 
+    Name:Ryan Victoria
+    Date: april 22 2022
+    Description: html for joinUS page
+
+-------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Join Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/joinUsJS.js"></script>
+</head>
+<body>
+
+<!--Header-->
+<header>
+    <div class="Title">
+        <img src="images/gif1.gif" alt="Veibae GIF">
+        <h1>OUR QUEEN</h1>
+        <img src="images/gif1.gif" alt="Veibae GIF">
+    </div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="joinUs.html">Join Us</a></li>
+    </ul>
+</header>
+
+<!--Main Body-->
+<main id="joinFormMAIN">
+
+    <form id="joinUsFORM"
+          action="index.html">        
+        <fieldset>
+            <ul>
+                <li>
+                    <label for="fullname">( ´･ω･) Full Name</label>
+                    <input id="fullname" name="fullname" type="text" />
+                    <p class="joinUsError error" id="fullname_error">* Required Field (´༎ຶ ͜ʖ ༎ຶ `)</p>
+                </li>
+                <li>
+                    <label for="phonenumber">( ´･ω･) Phone #</label>
+                    <input id="phonenumber" name="phonenumber" type="text" />
+                    <p class="joinUsError error" id="phonenumber_error">* Required Field (´༎ຶ ͜ʖ ༎ຶ `)</p>
+                    <p class="joinUsError error" id="phonenumberformat_error">* Invalid Phone Number (´༎ຶ ͜ʖ ༎ຶ `)</p>
+                </li>
+                <li>
+                    <label for="email">( ´･ω･) E-mail</label>
+                    <input id="email" name="email" type="text" />
+                    <p class="joinUsError error" id="email_error">* Required Field (´༎ຶ ͜ʖ ༎ຶ `)</p>
+                    <p class="joinUsError error" id="emailformat_error">* Invalid E-mail Address (´༎ຶ ͜ʖ ༎ຶ `)</p>
+                </li>
+                <li>
+                    <label for="textarea" id="textAreaLabel">( ´･ω･) Comments</label>
+                    <textarea id="textarea" name="textarea"></textarea>
+                </li>
+            </ul>
+
+            <p class="buttons">
+                <button type="reset" id="clear">✧･ﾟ: *✧･ﾟ:* Reset  *:･ﾟ✧*:･ﾟ✧</button>
+                <button type="submit" id="submit">✧･ﾟ: *✧･ﾟ:* Submit  *:･ﾟ✧*:･ﾟ✧</button>
+            </p>
+        </fieldset>
+    </form>
+
+</main>
+
+<!--Footer-->
+<footer>
+    <p>&nbsp;</p>
+</footer>
+
+</body>
+</html>

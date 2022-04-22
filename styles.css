@@ -1,0 +1,276 @@
+/*******************
+    
+    Project 2 Stylesheet
+    Name: Alan Simpson
+    Date: March 29 2019
+    Description: Styles for Project 3
+
+********************/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", serif;
+    cursor: url("images/cursor.png"),auto;
+}
+
+body
+{
+    border: 5px solid #cfefff;
+    border-top-style: none;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    width: 100em;
+    background: url("images/background.png");
+    background-size: cover;
+}
+
+.Title
+{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 10em;
+    position: relative;
+}
+
+header
+{
+    text-align: center;
+    background-color: pink;
+    font-size: 2.5em;
+    color: white;
+    border-radius: 10px 10px 0 0;
+
+}
+
+header ul
+{
+    background-color: #a2f7fd;
+}
+
+header ul li
+{
+    display: inline;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding-inline: 1em;
+    color: pink;
+}
+
+header img
+{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 2.5em;
+}
+
+
+/*Main*/
+#mainIndex
+{
+    background-color: white;
+    width: 100em;
+    height: 33.5em;
+}
+
+.mainIndexBody
+{
+    margin-inline: 15em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.descriptorIndex
+{
+    width: 25em;
+    font-size: 1.25em;
+}
+
+.videoIndex
+{
+    width: 25em;
+    margin-top: 1em;
+    margin-right: 2em;
+    font-size: 1.25em;
+}
+
+#mainIndex iframe
+{
+    margin-top: 1em;
+    border: 0;
+    border-radius: 10px;
+}
+
+.clickMeButtonIndex
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.clickMeButtonIndex button
+{
+    font-size: 3em;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: "Times New Roman";
+}
+
+
+/*Gallery MAIN CSS*/
+
+#galleryForm
+{
+    background-color: white;
+}
+
+#galleryHeadingOne, #galleryHeadingTwo
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.firstRowGallery
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.photoOne, .photoTwo, .photoThree
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.photoOne img, .photoTwo img, .photoThree img
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20em;
+}
+
+.secondRowGallery
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.thirdRowGallery
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+gifProperties
+{
+    text-align: center;
+}
+
+.gifProperties h3
+{
+    text-align: center;
+}
+
+.secondRowGallery .gifProperties img, .thirdRowGallery .gifProperties img
+{
+    border:1px solid black;
+    border-radius: 50%;
+}
+
+
+
+
+/*JoinUs MAIN CSS*/
+#joinFormMAIN
+{
+    background: white;
+}
+
+#joinFormMAIN fieldset
+{
+    border-style: none;
+    width: 100em;
+    margin:auto;
+}
+
+#joinUsFORM
+{
+    text-align: center;
+}
+
+#joinUsFORM fieldset ul
+{
+    list-style: none;
+    display: flex;
+}
+
+.error
+{
+    color: red;
+}
+
+#joinUsFORM label
+{
+    display:inline-block;
+    width: 10em;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#joinUsFORM input, textarea
+{
+    display:inline-block;
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#joinUsFORM input:focus, textarea:focus
+{
+   background-image: url("images/gif6.gif");
+   background-repeat: no-repeat;
+   background-size: cover ;
+   color: crimson;
+
+   
+}
+
+#joinUsFORM textarea
+{
+    resize: none;
+}
+.buttons button
+{
+    padding: 100px;
+    margin-top: 5em;
+    border-radius: 50%;
+    font-size: 1.5em;
+    background-color: pink;
+    color: white;
+}
+
+
+
+/*Footer*/
+footer
+{
+    background: url("images/gif2.gif");
+    background-repeat: space;
+}
+
+footer p
+{
+    font-size: 5em;
+}
